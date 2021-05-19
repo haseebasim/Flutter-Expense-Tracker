@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             Chart(_recentTransactions),
-            TransactionList(_userTransaction,_deleteTransaction)
+            TransactionList(_userTransaction, _deleteTransaction)
           ],
         ),
       ),
